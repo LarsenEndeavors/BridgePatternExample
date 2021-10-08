@@ -7,16 +7,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5c48136-c3c3-44b6-b761-c6603d63e2b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BridgePatternExample/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BridgePatternExample/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BridgePatternExample/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Objects/DvdRemote.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Objects/EntertainmentDevice.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Objects/RemoteButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Objects/TvDevice.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Objects/TvRemote.cs" afterDir="false" />
+    <list default="true" id="e5c48136-c3c3-44b6-b761-c6603d63e2b8" name="Changes" comment="Bridge Pattern Example">
+      <change afterPath="$PROJECT_DIR$/Objects/Resources/AlbumResource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objects/Resources/ArtistResource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objects/Resources/IResource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objects/Views/LongFormView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objects/Views/ShortFormView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objects/Views/View.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BridgePatternExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BridgePatternExample/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BridgePatternExample.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BridgePatternExample.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/DvdRemote.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/EntertainmentDevice.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/RemoteButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/TvDevice.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/TvRemote.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +30,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Objects/Resources/ArtistResource.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Objects/Resources/IResource.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nlarsen/RiderProjects/BridgePatternExample/BridgePatternExample.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Objects/Resources/AlbumResource.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1zEZ1roMxcC8pZgy0MKV7XcxaEf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -34,6 +44,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3497831" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -72,8 +84,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633714996353</updated>
-      <workItem from="1633715015053" duration="2114000" />
+      <workItem from="1633715015053" duration="7754000" />
     </task>
+    <task id="LOCAL-00001" summary="Bridge Pattern Example">
+      <created>1633718328932</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633718328932</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,5 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Bridge Pattern Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bridge Pattern Example" />
   </component>
 </project>
